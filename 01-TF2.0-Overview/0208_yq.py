@@ -5,13 +5,14 @@ from tensorflow.keras import layers, optimizers, datasets
 
 # emmm 今天不想写了 :(
 # 写下来为了以后可以有回忆 :) Every day with you is filled with happy moments and sweet memories.
-# Let me wake up mext to you, have breakfast in the morning and wander through the city
-# with your hand in mine, and I'll be happy for the rest of my life.
+# Let me wake up next to you, have breakfast in the morning and wander through the city
+# with your hand in mine, and I'll be happy for the rest of my little life.
 
 '''
 setting up some methods to load MNIST from keras.datasets and 
-preprocess them into rows of normalized 784-dimensional vectors.
+preprocess them into rows of normalized 784-dimensional (28*28) vectors.
 '''
+
 def mnist_dataset():
     # samples and classes(labels)
     # (x, y) = (train_images, train_labels)
